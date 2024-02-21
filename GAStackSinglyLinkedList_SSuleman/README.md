@@ -16,7 +16,8 @@
 ```csharp
    A. A stack is a data structure that follows the Last In, First Out (LIFO) principle. 
       It is used to store elements in a way that the last element added is the first one to be removed.
-      Stacks are commonly used in many algorithms and applications like expression evaluation, backtracking, function call management, etc.
+      Stacks are commonly used in many algorithms and applications like expression evaluation, 
+      backtracking, function call management, etc.
    B. The primary utility of a queue lies in its ability to manage data in a sequential manner, 
       ensuring that elements are processed in the order they are added.
 
@@ -29,8 +30,8 @@
 
   1. Purpose:
      i. Stack: A stack is a specialized data structure that follows the Last In, First Out (LIFO) principle. 
-        It is used for storing elements and supporting two primary operations: push (to add an element to the top of the stack) 
-        and pop (to remove the top element from the stack).
+        It is used for storing elements and supporting two primary operations: 
+        push (to add an element to the top of the stack) and pop (to remove the top element from the stack).
     ii. Singly Linked List: A singly linked list is a linear data structure that consists of a sequence of elements 
         where each element points to the next one in the sequence. It supports various operations 
         such as insertion, deletion, traversal, and searching.
@@ -39,7 +40,8 @@
      i. Stack: Stacks support push (to add an element), pop (to remove the top element), 
         and peek (to view the top element without removing it).
     ii. Singly Linked List: Singly linked lists support operations like insertion (at the beginning, end, or middle), 
-        deletion (of a specific element), traversal (to visit each element in sequence), and searching (to find a specific element).
+        deletion (of a specific element), traversal (to visit each element in sequence), 
+        and searching (to find a specific element).
  
   3. Access Pattern:
      i. Stack: Stacks have restricted access patterns. Elements can only be added or removed from one end (the top).
@@ -47,7 +49,8 @@
         Elements can be inserted or deleted at any position within the list.
 
   4. Memory Allocation:
-     i. Stack: Stacks typically use contiguous memory allocation, where each new element is added on top of the previous one.
+     i. Stack: Stacks typically use contiguous memory allocation, where each 
+        new element is added on top of the previous one.
     ii. Singly Linked List: Singly linked lists use dynamic memory allocation, 
         where each element is stored in a separate node, and nodes are linked together via pointers.
  
@@ -60,9 +63,11 @@
 
   6. Memory Overhead:
     i. Stack: Stacks have lower memory overhead since they do not require additional pointers for linking elements.
-   ii. Singly Linked List: Singly linked lists have higher memory overhead due to the additional pointers needed to link elements
+   ii. Singly Linked List: Singly linked lists have higher memory overhead due to 
+       the additional pointers needed to link elements
 ````
 ### 3. Discuss scenarios where a stack is preferable over other data structures.
+```csharp
 
   -- Stacks are preferable over other data structures in various scenarios 
      where the Last In, First Out (LIFO) behavior is desirable. 
@@ -96,9 +101,10 @@
         They help in tracking the structure of expressions, statements, and 
         program blocks during compilation.
 
-
+ ````
 ### 4. Considerations for choosing between a stack and other data structures.
 
+````csharp
   -- When choosing between a stack and other data structures, several considerations come into play, 
      including the nature of the problem we are solving, the operations we need to perform frequently,
      memory and time complexity considerations, and the ease of implementation and maintenance.
@@ -123,7 +129,7 @@
      - Consider the programming language we are using and the available libraries or built in data structures it offers.
        Some languages provide built-in support for stacks, making them convenient to use, 
        others might require to implement a stack from the scratch.
-
+````
 ### 5. Thoughts on implementing a stack using different approaches (array vs. linked list).
 
   -- Implementing a stack using different approaches, such as arrays and linked lists, 
