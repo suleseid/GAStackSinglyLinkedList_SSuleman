@@ -132,6 +132,7 @@
 ````
 ### 5. Thoughts on implementing a stack using different approaches (array vs. linked list).
 
+```csharp
   -- Implementing a stack using different approaches, such as arrays and linked lists, 
      offers distinct advantages and considerations:
 
@@ -174,3 +175,4 @@
         - No random access: 
             Unlike arrays, linked lists do not support constant-time random access to elements, 
             so accessing elements at the top of the stack requires traversing the list from the head.
+`````
