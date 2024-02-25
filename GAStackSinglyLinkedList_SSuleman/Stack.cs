@@ -59,25 +59,7 @@ namespace GAStackSinglyLinkedList_SSuleman
             top = null; // Empty the stack
             Count = 0;
         }
-        // Method to search for an element in the stack and return its position (1-based index)
-        public int Search(int data)
-        {
-            StackNode current = top;
-            int index = 1;
-
-            while (current != null)
-            {
-                if (current.Data == data)
-                {
-                    return index;
-                }
-
-                current = current.Next;
-                index++;
-            }
-
-            return -1; // Element not found
-        }
+        
         
     }
 

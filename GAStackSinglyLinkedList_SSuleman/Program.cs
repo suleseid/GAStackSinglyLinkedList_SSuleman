@@ -42,9 +42,7 @@ namespace GAStackSinglyLinkedList_SSuleman
                 Console.WriteLine("Exception caught: " + e.Message); // Should print "Stack is empty"
             }
 
-            // Searching for an element in the stack
-            Console.WriteLine("Index of 20 in stack: " + stack.Search(20));
-            Console.WriteLine("Index of 40 in stack: " + stack.Search(40));
+           
         }   
     }
 }
